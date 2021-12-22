@@ -33,17 +33,17 @@ class Home extends StatelessWidget {
     var net_status = "";
 
     if (result == ConnectivityResult.mobile) {
-      // ignore: avoid_print
-      // print("Connected to Mobile Network");
+      
       net_status = "Connected to Mobile Network";
+      
     } else if (result == ConnectivityResult.wifi) {
-      // ignore: avoid_print
-      // print("Connected to WiFi");
+      
       net_status = "Connected to WiFi";
+      
     } else if (result == ConnectivityResult.none) {
-      // ignore: avoid_print
-      // print("No Internet Connection");
+      
       net_status = "No Internet Connection";
+      
     }
 
     return net_status;
