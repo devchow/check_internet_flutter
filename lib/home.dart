@@ -20,10 +20,7 @@ class Home extends StatelessWidget {
               duration: const Duration(milliseconds: 3000),
             ));
           },
-          // style: ButtonStyle(
-          //     backgroundColor: MaterialStateProperty.all(Colors.red),
-          //     padding: MaterialStateProperty.all(EdgeInsets.all(50)),
-          //     textStyle: MaterialStateProperty.all(TextStyle(fontSize: 30))),
+            textStyle: MaterialStateProperty.all(TextStyle(fontSize: 30))),
         ),
       ),
     );
